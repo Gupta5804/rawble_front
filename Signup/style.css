@@ -1,0 +1,14 @@
+p.headingtext{
+    font-family: Helvetica;
+  font-size: 20px;
+    text-align: center;
+  color: #5f5d5d;
+    font-weight: bold;
+}
+
+div.signupbox{
+    margin-top: 20px;
+    border-radius: 4px;
+  background-color: #ffffff;
+  box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.5);
+}

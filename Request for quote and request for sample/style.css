@@ -1,0 +1,125 @@
+div.left-part{margin-left:5px;
+                margin-right: 5px;
+    
+}
+img.logo-rawble{
+  width:7%;
+}
+.main-box{margin-top: 10px;}
+p.prod-title{
+  font-family: Helvetica;
+  font-size: 20px;
+  font-weight: bold;
+  font-style: normal;
+  font-stretch: normal;
+color: #5f5d5d;
+    text-align: left;
+    border-bottom: solid 2px #979797;
+    
+}
+img.prod-img{
+    width:60%;
+    height:auto;
+    display: block;
+    border-radius: 50%;
+    margin-top: 24px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom:32px;
+    
+}
+p.know{
+    display:block;
+    font-family: Helvetica;
+  font-size: 20px;
+    color: #4990e2;
+    text-align: right;
+    
+}
+p.prod-desc{
+    font-family: Helvetica;
+  font-size: 20px;
+  font-weight: 300;
+    text-align: left;
+  color: #5f5d5d;
+    margin:auto;
+}
+p.request{
+    font-family: Helvetica;
+  font-size: 20px;
+  font-weight: bold;
+    text-align: center;
+  color: #5f5d5d;
+}
+div.right-part{
+    border-left: solid 1px #979797;
+    margin-top:10px; 
+    
+}
+label.label{font-family: Helvetica;
+  font-size: 14px;
+    color: #5f5d5d;
+    
+}
+
+label img {width:95px; margin:15px;}
+label.vendor{width:100%;}
+button.btn{
+    margin:10px;
+   width:100%;
+    height:43px;
+    border-radius:4px;
+   box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.5);
+
+}
+
+button.add-more-product{
+    border: solid 1px #3c3c3b;
+    background: white;
+}
+button.submit-requirement{
+    background-color: #3c3c3b;
+    
+}
+button.submit-requirement2{
+    background-color:  #dd4545;;
+}
+span.more-product{font-family: Helvetica;
+  font-size: 12px;}
+
+span.submit-req{
+    font-family: Helvetica;
+  font-size: 12px;
+    color:#ffffff;
+}
+
+.form-row{
+    margin-top: 30px;
+}
+
+
+.form-btn-row{
+    margin-top: 50px;
+}
+a.tooltip-info{
+    font-size: 12px;
+}
+span.buy-on-credit{
+    display: block;
+    text-align: center;
+    margin-top: 30px;
+}
+div.form-check{
+    margin-right:50px;
+}
+
+@media only screen and (max-width:891px)
+{ .col-sm.left-part{display:none;}
+    .col-sm.right-part{margin-left: auto;
+    margin-right: auto;}
+    }
+
+@media screen and (max-width: 425px)
+{ img.logo-rawble{
+  width:15%;
+  } }

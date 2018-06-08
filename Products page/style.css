@@ -1,0 +1,192 @@
+div.product-box{border-radius: 4px;
+  background-color: #ffffff;
+  box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.5);}
+p.prod-name{font-family: Helvetica;
+  font-size: 20px;
+  font-weight: bold;
+color: #5f5d5d;}
+span.title-22{font-family: Helvetica;
+  font-size: 14px;
+  font-weight: bold;
+color: #6d6b6b;}
+span.detail{
+    font-family: Helvetica;
+  font-size: 14px;
+  font-weight: 300;
+    color: #6d6b6b;
+}
+button.button-detail{
+    border-radius: 4px;
+    box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.5);
+    width:100%;
+    height: 43px;
+    display:block;
+    margin: auto;
+    margin-top:21px;
+}
+button.button-1{
+    background-color: #3c3c3b;
+    color:#ffffff;
+    font-family: Helvetica;
+  font-size: 12px;
+}
+button.button-2{background-color: #dd4545;
+font-family: Helvetica;
+  font-size: 12px;
+color:#ffffff;}
+span.button-label{display: block;
+    text-align: center;
+    font-family: Helvetica;
+  font-size: 10px;
+  font-weight: 300;
+    
+    margin:10px;
+    color: #5f5d5d;
+    margin-bottom: 21px;
+}
+img.vend-img{
+    width:150px;
+    height:41px;
+    margin:15px;
+}
+div.button-box{
+    border: dotted 1px #979797;
+    margin:8px;
+}
+div.other-vendors{
+    box-shadow: 0 0 4px 0 rgba(108, 106, 106, 0.5);
+    width:90%;
+    
+    margin-top:30px;
+    margin-bottom: 20px;
+    
+
+}
+p.other-title{font-family: Helvetica;
+  font-size: 14px;
+  font-weight: bold;
+color:#6d6b6b;
+margin-top: 12px;}
+
+img.other-img{
+    width: 68px;
+  height: 68px;
+    margin:5px;
+}
+div.detail-2{
+    margin-top: 50px;
+    border: dotted 1px #979797;
+    width:90%;
+    
+}
+.detail-2 p{font-family: Helvetica;
+  font-size: 14px;
+  font-weight: bold;
+ color: #494747;
+margin-top: 10px;}
+div.box2 {border-left:solid 1px #979797;
+    
+    
+}
+.detail-2 ul {font-family: Helvetica;
+  font-size: 12px;
+  font-weight: 300;
+    text-align: left;
+  color: #494747;}
+div.relevant-documents{
+    box-shadow: 0 2px 4px 0 rgba(222, 222, 222, 0.5);
+    border: solid 0.2px lightgray;
+    width:90%;
+    margin:10px;
+}
+.relevant-documents p{
+    font-family: Helvetica;
+  font-size: 14px;
+  font-weight: bold;
+    color: #e23131;
+    margin-top:12px;
+}
+.relevant-documents a{display:block;font-family: Helvetica;
+  font-size: 12px;line-height: 45px;
+text-decoration: underline;}
+
+.call-us{
+    box-shadow: 0 2px 4px 0 rgba(222, 222, 222, 0.5);
+    border: solid 0.2px lightgray;
+    width:90%;
+    margin:10px;
+    line-height: 18px;
+}
+.vendor-detail{
+    box-shadow: 0 2px 4px 0 rgba(222, 222, 222, 0.5);
+    border: solid 0.2px lightgray;
+    width:90%;
+    margin:10px;
+}
+.call-us img{
+    display:block;   
+    width:100%;
+    padding:20px 0;   
+}
+.call-us .img-call{border-right:dotted 2px lightgray;}
+
+.call-us p{text-align: center;padding:5px;}
+.call-us p.one{font-family: Helvetica;
+  font-size: 10px;color: #5f5d5d;}
+.call-us p.two{font-family: Helvetica;
+  font-size: 12px;color: #494747;}
+div.product-box{margin-top: 20px;}
+.vendor-detail img{width:61%;
+display:block;
+margin-left:auto;
+margin-right: auto;
+}
+span.title-09{font-family: Helvetica;
+  font-size: 12px;
+  font-weight: bold;
+color: #444444;}
+.detail-box{
+    padding:20px;
+    
+    
+}
+
+.img-box{padding:10px;}
+.read-more{
+    border-radius: 2px;
+  background-color: #575555;
+  box-shadow: 0 0 4px 0 rgba(169, 169, 169, 0.5);
+    color:#ffffff;
+    font-family: Helvetica;
+  font-size: 10px;
+    float:right;
+}
+.two-btns{width:91%;}
+.call-us p{margin-bottom: 0px;}
+.breadcrumb{background-color: white;}
+.breadcrumb-item+.breadcrumb-item::before{
+    content:">";
+}
+.vendor-detail ul{ list-style-type: none;
+list-style: none;
+    padding-left: 0px;
+font-family: Helvetica;
+  font-size: 14px;
+  font-weight: 300;
+    color: #6d6b6b;}
+.middle-part{margin-right: 0px;}
+.box1 p,.box2 p{border-bottom: solid 3px lightgray }
+@media screen and (max-width:425px){
+    .two-btns{margin:auto;}
+    .prod-name{width:100%; text-align: center;}
+    .vend-spec{text-align: center;display: block;}
+    .vend-img{display: block; }
+    .breadcrum{display: none;}
+    .other-vendors{margin:auto;}
+    .box2{display:none;}
+    .box1{margin:0px;}
+    .detail-2{margin:auto;margin-left: 10px;}
+    .read-more{width:100%;float: none; height:40px;}
+    .img-call{display:none;}
+    
+}
