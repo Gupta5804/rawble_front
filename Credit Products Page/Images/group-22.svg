@@ -1,0 +1,13 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="309" height="94" viewBox="0 0 309 94">
+    <g fill="none" fill-rule="evenodd" transform="translate(-35 -2)">
+        <rect width="186.396" height="91.217" x="35" y="4" fill="#F0F0F0" rx="42"/>
+        <text fill="#5C7694" font-family="Helvetica-Bold, Helvetica" font-size="18" font-weight="bold">
+            <tspan x="59.82" y="41">Just Register !!</tspan>
+        </text>
+        <text fill="#2F5077" font-family="Helvetica-Light, Helvetica" font-size="12" font-weight="300">
+            <tspan x="54.132" y="61">Our Team shall get in touch </tspan> <tspan x="90.816" y="75">with you soon</tspan>
+        </text>
+        <path stroke="#525050" stroke-dasharray="1,1" d="M217.5 27.5s2-26 68-19c49.112 5.209 55-3 55-3"/>
+        <path stroke="#7F7E7E" d="M336 2.926l6.993 1.156-.94 6.31"/>
+    </g>
+</svg>
