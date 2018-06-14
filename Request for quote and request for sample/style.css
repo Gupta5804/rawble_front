@@ -4,6 +4,7 @@ div.left-part{margin-left:5px;
 }
 img.logo-rawble{
   width:7%;
+
 }
 .main-box{margin-top: 10px;}
 p.prod-title{
@@ -18,8 +19,7 @@ color: #5f5d5d;
     
 }
 img.prod-img{
-    width:60%;
-    height:auto;
+    
     display: block;
     border-radius: 50%;
     margin-top: 24px;
@@ -62,7 +62,7 @@ label.label{font-family: Helvetica;
     
 }
 
-label img {width:95px; margin:15px;}
+label img {width:auto;height:30px; margin:15px;}
 label.vendor{width:100%;}
 button.btn{
     margin:10px;
@@ -85,11 +85,11 @@ button.submit-requirement2{
     background-color:  #dd4545;;
 }
 span.more-product{font-family: Helvetica;
-  font-size: 12px;}
+  font-size: 16px;}
 
 span.submit-req{
     font-family: Helvetica;
-  font-size: 12px;
+  font-size: 18px;
     color:#ffffff;
 }
 
@@ -110,9 +110,17 @@ span.buy-on-credit{
     margin-top: 30px;
 }
 div.form-check{
-    margin-right:50px;
+    margin-right:9%;
 }
-
+.img-back{position: relative;
+          z-index: -1;
+          height: 80px;
+          top:-30%;
+  background-color: #e0c14d;}
+.close{font-size:314%; line-height: 0.3;}
+.more-product-label{ font-size: 12px;display:block;
+  font-weight: 300;font-family: Helvetica;text-align: center;
+  color: #8c8787;}
 @media only screen and (max-width:891px)
 { .col-sm.left-part{display:none;}
     .col-sm.right-part{margin-left: auto;
