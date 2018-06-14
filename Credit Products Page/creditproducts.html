@@ -10,29 +10,104 @@
   src="https://code.jquery.com/jquery-3.3.1.min.js"
   integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8="
   crossorigin="anonymous"></script>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
 
 </head>
 <body>
+<nav class="navbar navbar-light bg-light d-none d-md-block pad navbarnav">
+  <div class = "navbarflex-container">
+    <div class = "navbarRectangle-8">
+      <p style="font-size: 0.7em" class="mr-5" id = "navbarindia">India’s 1st One stop B2B Sourcing destination for Raw material products</p>
+      <div style="position: absolute; right: 0px; top: 0px;">
+        <a href="#" class="mr-2 ml-auto" style="font-size: 0.7em; color: white ; ">Contact us</a>
+        <a href="#" class="mx-2" style="font-size: 0.7em; color: white ;">Career</a>
+        <a href="#" class="mx-2" style="font-size: 0.7em; color: white ;">Info Center</a>
+        <a href="#" class="mx-2" style="font-size: 0.7em; color: white ;">FAQ</a>
+        <a href="#" class="mx-2" style="font-size: 0.7em; color: white ;">Case Studies</a>
+        <a href="#" class="mx-2" style="font-size: 0.7em; color: white ;">Blog</a>
+      </div>
+      <img src = "Images/logo.png" id = "navbarlogo">
+    </div>
+
+    <div style="flex-direction: row; display : flex" class = "navbarRectangle-9-Copy">
+      <div class="navbarfullwidth">
+        <ul style="flex-direction: row; display : flex"  class = "navbarul">
+          <li class="nav-item" id = "navbarhome">
+            <a class="navbarnav-link nav-link navbarHome" href="#">Home</a>
+          </li>
+          <li class="nav-item" id = "navbaraboutus">
+            <a class="nav-link navbarnav-link navbarAbout-us" href="#"><span>About us</span></a>
+          </li>
+          <li class="nav-item dropdown" id = "navbarpdts">
+            <a class="nav-link dropdown-toggle navbarnav-link navbarProducts" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"><span>
+          Products</span>
+        </a>
+            <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+              <a class="dropdown-item" href="#">Action</a>
+              <a class="dropdown-item" href="#">Another action</a>
+              <div class="dropdown-divider"></div>
+              <a class="dropdown-item" href="#">Something else here</a>
+            </div>
+          </li>
+          <li style = "display: flex; flex-direction: row;" class = "navbarRectangle-3 dropdown">
+              <a class="nav-link navbarnav-link dropdown-toggle navbarRectangle-4 navbarAll" href="#" id="navbarDropdown2" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                All
+              </a>
+              <div class="dropdown-menu" aria-labelledby="navbarDropdown2">
+                <a class="dropdown-item" href="#">Action</a>
+                <a class="dropdown-item" href="#">Another action</a>
+                <div class="dropdown-divider"></div>
+                <a class="dropdown-item" href="#">Something else here</a>
+              </div>
+              <form class="form-inline my-2 my-lg-0" style = "width: 100%">
+                <input class=" mr-sm-2 navbarsearch navbarpad" type="search" placeholder="Search for products, categories or brands" onfocus="this.placeholder = ''" aria-label="Search">
+              </form>
+              <img src = "Images/mg.svg" id = "navbarmg">
+          </li>
+          <li id = "navbarprofile"><img src= "Images/profile.svg"  class="navbarhap"></li>
+          <li class="nav-item dropdown" id ="navbarlogin">
+            <a class="navbarnav-link nav-link dropdown-toggle navbarLogin" href="#" id="navbarDropdown3" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Login
+        </a>
+            <div class="dropdown-menu" aria-labelledby="navbarDropdown3">
+              <a class="dropdown-item" href="#">Action</a>
+              <a class="dropdown-item" href="#">Another action</a>
+              <div class="dropdown-divider"></div>
+              <a class="dropdown-item" href="#">Something else here</a>
+            </div>
+          </li>
+          <li class="nav-item" id = "navbarsignup">
+            <a class="navbarnav-link nav-link navbarSignup" href="#" >Signup</a>
+          </li> 
+          <li class="navbarpos">
+            <p class = "navbarcounter navbarlayer2"><span>0</span><br/><span class="navbarfs">item</span></p> 
+            <img src="Images/truck.jpg" id = "navbartruck" class = "navbarlayer">
+          </li>
+        </ul>
+      </div>
+    </div>
+  </div>
+</nav>
+
 	<div id="main">
 		<p class="We-know-managing-wor">We know managing working capital is one of the toughest jobs for SMEs !</p>
 		<p class="We-have-come-up-with">We have come up with the solutions to solve just that</p>
 		<p class="Rawble-has-partnered">Rawble has partnered with NBFCs to provide credit on all purchases</p>
 		<div class = "container-fluid">
 			<div class = "row mt">
-				<div class = "col-md-6">
+				<div class = "col-md-6 ">
 					<div class = "container-fluid" style = "text-align: center;">
 						<img class = " Bitmap img-fluid" src="Images/group-20.jpg">
 					</div>
 					<p>
 						<i class="far fa-hand-point-up Combined-Shape"></i>
 					</p>
-					<div style="width:572px; margin: auto">
+					<div id = "dotbor">
 						<div id="dotborder">
 							<p class="Watch-the-video-to-u">Watch the video to understand how it works...</p>
                     	</div>
 					</div>
 				</div>
-				<div class = "col-md-6">
+				<div class = "col-md-6 ">
 					<div class = "container-fluid" >
 						<div class = "thecard">
 						<div class="Rectangle-19-Copy-2 front" id = "personaldetails">
@@ -139,7 +214,7 @@
 							</div>	
 						</div>
 					</div>
-					<div class = "col-md-4">
+					<div class = "col-md-4 ">
 						<div class= "container-fluid" style="text-align: center">
 							<img class = "Bitmap2 img-fluid" src="Images/bitmap.jpg"></div>
 						</div>
@@ -148,7 +223,7 @@
 			</div>
 			<div class = "container-fluid">	
 				<div class = "row mt">
-					<div class = "col-md-12">
+					<div class = "col-md-12 ">
 						<div class = "container-fluid">
 							<div id = "paras">
 								<p class= "HEAR-STRAIGHT-FROM-T">HEAR STRAIGHT FROM THE HORSE'S MOUTH</p>
@@ -160,16 +235,16 @@
 			</div>
 			<div class = "container-fluid">
 				<div class = "row mt">
-					<div class = "col-md-6">
+					<div class = "col-md-6 ">
 						<div class = "container-fluid  " style = "text-align: center">
 							<img class = "Bitmap3 img-fluid" src="Images/group-37-copy.jpg">
 						</div>
 					</div>
-					<div class = "col-md-6 ht">
+					<div class = "col-md-6 ht ">
 						<div class = "container-fluid ht">
 							<div class = "casestudy">
 								<p class = "There-is-tentative-e-Copy">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.</p>
-								<button class="Rectangle-12">READ THE ENTIRE CASE STUDY</button>
+								<button class="Rectangle-12" id = "case">READ THE ENTIRE CASE STUDY</button>
 							</div>
 						</div>	
 					</div>
@@ -182,31 +257,31 @@
 			<div class = "fd">
 				<div class="flex-container">
 					<button class="Rectangle-13-Copy-6 flex-item " id= "loantap"><img class = "Image-1" src="Images/image-1.jpg"></button>
-					<div id="loantapdiv" class="Combined-Shape-Copy flex-container2">
+					<div id="loantapdiv" class="">
 						<p id ="ltp1"></p>
 						<p id ="ltp2"></p>
 						<p id ="ltp3"></p>
 					</div>
 					<button class="Rectangle-13-Copy-6 flex-item" id = "capitalfloat"><img src="Images/image-2.jpg" class="Image-2"></button>
-					<div id="capitalfloatdiv" class="Combined-Shape-Copy flex-container2">
+					<div id="capitalfloatdiv" class="">
 						<p id ="cfp1"></p>
 						<p id ="cfp2"></p>
 						<p id ="cfp3"></p>
 					</div>
 					<button class="Rectangle-13-Copy-6 flex-item" id = "lendingkart"><img src="Images/image-3.jpg" class="Image-3"></button>
-					<div id="lendingkartdiv" class="Combined-Shape-Copy flex-container2">
+					<div id="lendingkartdiv" class="">
 						<p id ="lkp1"></p>
 						<p id ="lkp2"></p>
 						<p id ="lkp3"></p>
 					</div>
 					<button class="Rectangle-13-Copy-6 flex-item" id = "kredx"><img src="Images/image-5.jpg" class="Image-5"></button>
-					<div id="kredxdiv" class="Combined-Shape-Copy flex-container2">
+					<div id="kredxdiv" class="">
 						<p id ="krp1"></p>
 						<p id ="krp2"></p>
 						<p id ="krp3"></p>						
 					</div>
 					<button class="Rectangle-13-Copy-6 flex-item" id = "neogrowth"><img src="Images/image-4.jpg" class="Image-4"></button>
-					<div id="neogrowthdiv" class="Combined-Shape-Copy flex-container2">
+					<div id="neogrowthdiv" class="">
 						<p id ="ngp1"></p>
 						<p id ="ngp2"></p>
 						<p id ="ngp3"></p>
