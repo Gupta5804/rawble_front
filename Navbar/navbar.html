@@ -1,0 +1,200 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+<title>Bizongo</title>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.2/css/bootstrap.min.css">
+<link rel="stylesheet" type="text/css" href="navbar.css">
+<script
+  src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+<script
+  src="https://cdnjs.cloudflare.com/ajax/libs/jqueryui/1.12.1/jquery-ui.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.0.0/js/bootstrap.min.js"></script>
+</head>
+
+
+<body>
+
+
+
+
+ <nav class="navbar navbar-light bg-light d-none d-md-block pad">
+  <div class = "flex-container">
+    <div class = "Rectangle-8">
+      <p style="font-size: 0.7em" class="mr-5" id = "india">India’s 1st One stop B2B Sourcing destination for Raw material products</p>
+      <div style="position: absolute; right: 0px; top: 0px;">
+        <a href="#" class="mr-2 ml-auto" style="font-size: 0.7em; color: white ; ">Contact us</a>
+        <a href="#" class="mx-2" style="font-size: 0.7em; color: white ;">Career</a>
+        <a href="#" class="mx-2" style="font-size: 0.7em; color: white ;">Info Center</a>
+        <a href="#" class="mx-2" style="font-size: 0.7em; color: white ;">FAQ</a>
+        <a href="#" class="mx-2" style="font-size: 0.7em; color: white ;">Case Studies</a>
+        <a href="#" class="mx-2" style="font-size: 0.7em; color: white ;">Blog</a>
+      </div>
+      <img src = "Images/logo.png" id = "logo">
+    </div>
+
+    <div style="flex-direction: row; display : flex" class = "Rectangle-9-Copy">
+      <!-- <a class="navbar-brand" href="#">BIZONGO</a> -->
+      <!-- <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation"> -->
+    <!-- <span class="navbar-toggler-icon"></span> -->
+  <!-- </button> -->
+      <!-- <img src = "Images/logo.png" id = "logo"> -->
+      <div class="fullwidth">
+        <ul style="flex-direction: row; display : flex" >
+          <li class="nav-item" id = "home">
+            <a class="nav-link Home" href="#">Home</a>
+          </li>
+          <li class="nav-item" id = "aboutus">
+            <a class="nav-link About-us" href="#"><span>About us</span></a>
+          </li>
+          <li class="nav-item dropdown" id = "pdts">
+            <a class="nav-link dropdown-toggle Products" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"><span>
+          Products</span>
+        </a>
+            <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+              <a class="dropdown-item" href="#">Action</a>
+              <a class="dropdown-item" href="#">Another action</a>
+              <div class="dropdown-divider"></div>
+              <a class="dropdown-item" href="#">Something else here</a>
+            </div>
+          </li>
+          <!-- <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+          SOLUTIONS
+        </a>
+            <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+              <a class="dropdown-item" href="#">Action</a>
+              <a class="dropdown-item" href="#">Another action</a>
+              <div class="dropdown-divider"></div>
+              <a class="dropdown-item" href="#">Something else here</a>
+            </div>
+          </li> -->
+          <!-- <li class="nav-item">
+            <form class="form-inline my-2 my-lg-0">
+              <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
+              <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
+            </form>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">LOGIN</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">SIGNUP</a>
+          </li> -->
+          <li style = "display: flex; flex-direction: row;" class = "Rectangle-3 dropdown">
+              <a class="nav-link dropdown-toggle Rectangle-4 All" href="#" id="navbarDropdown2" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                All
+              </a>
+              <div class="dropdown-menu" aria-labelledby="navbarDropdown2">
+                <a class="dropdown-item" href="#">Action</a>
+                <a class="dropdown-item" href="#">Another action</a>
+                <div class="dropdown-divider"></div>
+                <a class="dropdown-item" href="#">Something else here</a>
+              </div>
+              <form class="form-inline my-2 my-lg-0" style = "width: 100%">
+                <input class=" mr-sm-2 search pad" type="search" placeholder="Search for products, categories or brands" onfocus="this.placeholder = ''" aria-label="Search">
+                <!-- <button class="btn btn-outline-success my-2 my-sm-0 pad" type="submit">Search</button> -->
+              </form>
+              <img src = "Images/mg.svg" id = "mg">
+          </li>
+          <!-- <li class="nav-item">
+            <a class="nav-link" href="#">LOGIN</a>
+          </li> -->
+          <li id = "profile"><img src= "Images/profile.svg"  class="hap"></li>
+          <li class="nav-item dropdown" id ="login">
+            <a class="nav-link dropdown-toggle Login" href="#" id="navbarDropdown3" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Login
+        </a>
+            <div class="dropdown-menu" aria-labelledby="navbarDropdown3">
+              <a class="dropdown-item" href="#">Action</a>
+              <a class="dropdown-item" href="#">Another action</a>
+              <div class="dropdown-divider"></div>
+              <a class="dropdown-item" href="#">Something else here</a>
+            </div>
+          </li>
+          <li class="nav-item" id = "signup">
+            <a class="nav-link Signup" href="#" >Signup</a>
+          </li> 
+          <li class="pos">
+            <p class = "counter layer2"><span>0</span><br/><span class="fs">item</span></p> 
+            <img src="Images/truck.jpg" id = "truck" class = "layer">
+          </li>
+        </ul>
+      </div>
+    </div>
+  </div>
+</nav>
+
+<nav class="navbar navbar-light bg-light  d-md-none">
+
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarsExample01" aria-controls="navbarsExample01" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+       <a class="navbar-brand" href="#">BIZONGO</a>
+
+
+      <div class="collapse navbar-collapse" id="navbarsExample01">
+        <ul class="navbar-nav mr-auto">
+          <li class="nav-item">
+            <a class="nav-link" href="#">REGISTER/LOGIN</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">HOME</a>
+          </li>
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="https://example.com" id="dropdown01" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">SHOP BY CATEGORY</a>
+            <div class="dropdown-menu" aria-labelledby="dropdown01">
+              <a class="dropdown-item" href="#">BOTTLES AND JARS</a>
+              <a class="dropdown-item" href="#">FOOD PACKAGING</a>
+              <a class="dropdown-item" href="#">OFFICE SUPPLIES</a>
+            </div>
+          </li>
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="https://example.com" id="dropdown01" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">SHOP BY INDUSTRY</a>
+            <div class="dropdown-menu" aria-labelledby="dropdown01">
+              <a class="dropdown-item" href="#">RESTAURANT AND HOSPITALITY</a>
+              <a class="dropdown-item" href="#">RETAIL AND WHOLESALE</a>
+              <a class="dropdown-item" href="#">E-COMMERCE</a>
+            </div>
+          </li>
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="https://example.com" id="dropdown01" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">SOLUTIONS</a>
+            <div class="dropdown-menu" aria-labelledby="dropdown01">
+              <a class="dropdown-item" href="#">PROCURE PLUS</a>
+              <a class="dropdown-item" href="#">DESIGN LAB</a>
+              <a class="dropdown-item" href="#">CREDIT SOLUTION</a>
+            </div>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">TRACK YOUR ORDER</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">BULK REQUIREMENT</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">SELL ON BIZONGO</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">BLOG</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">CAREERS</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">CONTACT US</a>
+          </li>
+        </ul>
+      </div>
+        <a href="#">Location</a>
+        <a href="#">Cart</a>
+        <a href="#">Profile</a>
+        <form class="form-inline my-2 my-md-0" style="width: 100%">
+          <input class="form-control" type="text" placeholder="Search" aria-label="Search">
+        </form>
+
+</nav>
+
+
+</body>
+</html>
