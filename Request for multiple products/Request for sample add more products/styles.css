@@ -1,0 +1,246 @@
+.multiproductrfq .S-no {
+  font-family: Helvetica;
+  font-size: 16px;
+  font-weight: normal;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: normal;
+  letter-spacing: normal;
+  text-align: left;
+  text-decoration: underline;
+  color: #6b6b6b;
+  min-height: 40px;
+}
+
+.multiproductrfq .inp{
+  width: 90%;
+  margin-top: 5px;
+  border : dotted 1px;
+  height: 28px;
+}
+
+
+/*.opt{
+  border : solid 1px black;
+}*/
+
+.multiproductrfq .layer {
+  font-family: Helvetica;
+  font-size: 16px;
+  font-weight: normal;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: normal;
+  letter-spacing: normal;
+  text-align: left;
+  color: #262626;
+  min-height: 60px;
+  margin-bottom: 0px;
+}
+
+.multiproductrfq .buttoncont{
+  text-align: right;
+  margin-top: 20px;
+}
+
+.multiproductrfq .vert{
+  vertical-align: sub;
+}
+
+.multiproductrfq .vert1{
+  vertical-align: middle;
+}
+
+ .REQUEST-FOR-QUOTE {
+  font-family: Helvetica;
+  font-size: 20px;
+  font-weight: bold;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: normal;
+  letter-spacing: normal;
+  text-align: center;
+  color: #5f5d5d;
+  margin-top: 49px;
+}
+
+.multiproductrfq .Request-for-Multiple {
+  font-family: Helvetica;
+  font-size: 18px;
+  font-weight: 300;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: normal;
+  letter-spacing: normal;
+  text-align: center;
+  color: #5f5d5d;
+}
+
+.multiproductrfq .formdiv{
+  margin-top: 40px;
+}
+
+.multiproductrfq .E-mail-ID {
+  font-family: Helvetica;
+  font-size: 14px;
+  font-weight: normal;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: normal;
+  letter-spacing: normal;
+  text-align: left;
+  color: #5f5d5d;
+  min-height: 40px;
+  margin-bottom: 0px;
+}
+
+.multiproductrfq .Rectangle-2 {
+  border: dotted 1px #979797;
+  padding-top : 10px;
+  padding-bottom: 10px;
+}
+
+.multiproductrfq .topbox{
+  margin-top: 40px;
+}
+
+.brpdt{
+  display: none;
+}
+
+
+.multiproductrfq .checkbox{
+  text-align: right;
+}
+
+.multiproductrfq #buyOnCredit{
+  width: auto;
+}
+
+.multiproductrfq .Ill-buy-on-credit {
+  font-family: Helvetica;
+  font-size: 14px;
+  font-weight: normal;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: normal;
+  letter-spacing: normal;
+  text-align: left;
+  color: #5f5d5d;
+}
+
+.multiproductrfq #buyOnCredit{
+  vertical-align: middle;
+}
+
+.multiproductrfq .buttons{
+  justify-content: center;
+  margin-top: 60px;
+  display: flex;
+  flex-direction: row;
+}
+
+
+
+
+.multiproductrfq .REQUEST-FOR-SINGLE-P {
+  font-family: Helvetica;
+  font-size: 16px;
+  font-weight: normal;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: normal;
+  letter-spacing: normal;
+  text-align: center;
+  color: #262626;
+  width: 100%;
+  max-width: 313px;
+  border-radius: 4px;
+  border: solid 1px #3c3c3b;
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+
+.multiproductrfq .SUBMIT-REQUEST {
+  font-family: Helvetica;
+  font-size: 16px;
+  font-weight: normal;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: normal;
+  letter-spacing: normal;
+  text-align: center;
+  color: #ffffff;
+  color: var(--white);
+  width:100%;
+  max-width: 245px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  border-radius: 4px;
+  background-color: #3c3c3b;
+  border: solid 1px #3c3c3b;
+
+}
+
+.logo{
+  position: absolute;
+  width: 88px;
+  height: 65px;
+  top : 21px;
+}
+
+.cross{
+  position: absolute;
+  right: 25px;
+  top: 25px;
+}
+
+.buttoncon{
+  display: flex;
+  flex-direction: column;
+}
+
+.I-require-quote-for {
+  font-family: Helvetica;
+  font-size: 12px;
+  font-weight: 300;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: normal;
+  letter-spacing: normal;
+  text-align: center;
+  color: #8c8787;
+}
+
+.subreqbtn{
+  height: 40.4px;
+  margin-left: 10px;
+}
+
+@media screen and (max-width: 767px)
+{ 
+  .multiproductrfq .S-no{
+    margin-top: 20px;
+  }
+  .multiproductrfq .E-mail-ID{
+    margin-top: 20px;
+  }
+  .multiproductrfq .subreqbtn{
+    margin-top: 20px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  .logo{
+    display: none;
+  }
+  .cross{
+    display: none;
+  }
+  .multiproductrfq .buttons{
+    flex-direction: column;
+  }
+  .multiproductrfq .REQUEST-FOR-SINGLE-P{
+    margin-left: auto;
+    margin-right: auto;
+  }
+}
