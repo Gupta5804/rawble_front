@@ -17,6 +17,12 @@
   margin-top: 5px;
   border : dotted 1px;
   height: 28px;
+  margin-bottom: 10px;
+}
+
+.multiproductrfq .buttoncon{
+  display: flex;
+  flex-direction: column;
 }
 
 
@@ -51,9 +57,14 @@
   vertical-align: middle;
 }
 
+.multiproductrfq .snoinp{
+  text-align: center;
+  width: 60%;
+}
+
  .REQUEST-FOR-QUOTE {
   font-family: Helvetica;
-  font-size: 20px;
+  font-size: 26px;
   font-weight: bold;
   font-style: normal;
   font-stretch: normal;
@@ -104,13 +115,10 @@
   margin-top: 40px;
 }
 
-.brpdt{
-  display: none;
-}
-
 
 .multiproductrfq .checkbox{
   text-align: right;
+  margin-top: 20px;
 }
 
 .multiproductrfq #buyOnCredit{
@@ -119,7 +127,7 @@
 
 .multiproductrfq .Ill-buy-on-credit {
   font-family: Helvetica;
-  font-size: 14px;
+  font-size: 18px;
   font-weight: normal;
   font-style: normal;
   font-stretch: normal;
@@ -195,14 +203,14 @@
   top: 25px;
 }
 
-.buttoncon{
+.multiproductrfq .buttoncon{
   display: flex;
   flex-direction: column;
 }
 
-.I-require-quote-for {
+.multiproductrfq .I-require-quote-for {
   font-family: Helvetica;
-  font-size: 12px;
+  font-size: 16px;
   font-weight: 300;
   font-style: normal;
   font-stretch: normal;
@@ -212,7 +220,13 @@
   color: #8c8787;
 }
 
-.subreqbtn{
+.multiproductrfq #buyOnCredit{
+  height: 20px;
+  width: 20px;
+  vertical-align: sub;
+}
+
+.multiproductrfq .subreqbtn{
   height: 40.4px;
   margin-left: 10px;
 }

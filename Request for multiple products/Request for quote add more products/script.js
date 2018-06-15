@@ -6,7 +6,7 @@
         // adding new block for serial number
         var addto = "#sno" + next;
         next = next + 1;
-        var newIn = '<input class="inp" id="sno' + next + '" name="sno' + next + '" type="text"> required';
+        var newIn = '<input class="inp snoinp" id="sno' + next + '" name="sno' + next + '" value = "'+ next +'" type="text"> required';
         var newInput = $(newIn);
         $(addto).after(newInput);
 

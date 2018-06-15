@@ -78,6 +78,7 @@
 
 .multiproductrfq .formdiv{
   margin-top: 40px;
+  margin-right: 20px;
 }
 
 .multiproductrfq .E-mail-ID {
@@ -159,6 +160,7 @@
   border: solid 1px #3c3c3b;
   padding-top: 10px;
   padding-bottom: 10px;
+  background-color: white;
 }
 
 .multiproductrfq .SUBMIT-REQUEST {
@@ -177,7 +179,7 @@
   padding-top: 10px;
   padding-bottom: 10px;
   border-radius: 4px;
-  background-color: #3c3c3b;
+  background-color: #dd4545;
   border: solid 1px #3c3c3b;
 
 }
@@ -195,12 +197,12 @@
   top: 25px;
 }
 
-.buttoncon{
+.multiproductrfq .buttoncon{
   display: flex;
   flex-direction: column;
 }
 
-.I-require-quote-for {
+.multiproductrfq .I-require-quote-for {
   font-family: Helvetica;
   font-size: 12px;
   font-weight: 300;
@@ -212,7 +214,7 @@
   color: #8c8787;
 }
 
-.subreqbtn{
+.multiproductrfq .subreqbtn{
   height: 40.4px;
   margin-left: 10px;
 }
