@@ -1,0 +1,193 @@
+body{
+	background-color: #dad8d8;
+}
+
+
+#main{
+	width:70%;
+	margin-left: auto;
+	margin-right: auto;
+	background-color: white;
+	margin-top: 50px;
+	margin-bottom: 100px;
+	padding-top: 20.7px;
+	padding-bottom: 30px;
+	text-align: center;
+}
+
+.Thank-you-for-Regist {
+  font-family: Helvetica;
+  font-size: 20px;
+  font-weight: bold;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: normal;
+  letter-spacing: normal;
+  text-align: center;
+  color: #5f5d5d;
+  margin-top: 30px;
+}
+
+
+.Welcome-to-Rawbleco {
+  font-family: Helvetica;
+  font-size: 12px;
+  font-weight: bold;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: normal;
+  letter-spacing: normal;
+  text-align: center;
+  color: #417505;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+.Login-to-access-our {
+  font-family: Helvetica;
+  font-size: 12px;
+  font-weight: normal;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: normal;
+  letter-spacing: normal;
+  text-align: center;
+  color: #5f5d5d;
+}
+
+.-Get-marketing-insig {
+  font-family: Helvetica;
+  font-size: 9px;
+  font-weight: normal;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: normal;
+  letter-spacing: normal;
+  text-align: left;
+  color: #989898;
+}
+
+ul {
+	list-style-type: none;
+	padding: 0;
+	margin: 0;
+	width: 40%;
+	margin-right: auto;
+	margin-left: auto;
+}
+
+.Combined-Shape {
+  border-radius: 4px;
+  background-color: #ffffff;
+  background-color: var(--white);
+  box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.5);
+  position: relative;
+}
+
+.Rectangle-12 {
+  background-color: #3c3c3b;
+  width: 200px;
+  margin-top: 50px;
+  box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.5);
+  margin-bottom: 30px;
+}
+
+.CONTINUE {
+  font-family: Helvetica;
+  font-size: 14px;
+  font-weight: normal;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: normal;
+  letter-spacing: normal;
+  text-align: center;
+  color: #ffffff;
+  color: var(--white);
+}
+
+
+.checkmark-circle {
+  width: 62px;
+  height: 62px;
+  position: relative;
+  display: inline-block;
+  vertical-align: top;
+}
+.checkmark-circle .background {
+  width: 62px;
+  height: 62px;
+  border-radius: 50%;
+  background: #e0c14d;
+  position: absolute;
+}
+.checkmark-circle .checkmark {
+  border-radius: 5px;
+}
+.checkmark-circle .checkmark.draw:after {
+  animation-delay: 100ms;
+  animation-duration: 1s;
+  animation-timing-function: ease;
+  animation-name: checkmark;
+  transform: scaleX(-1) rotate(135deg);
+  animation-fill-mode: forwards;
+}
+.checkmark-circle .checkmark:after {
+  opacity: 1;
+  height: 31px;
+  width: 15.5px;
+  transform-origin: left top;
+  border-right: 6.2px solid white;
+  border-top: 6.2px solid white;
+  border-radius: 2.5px !important;
+  content: '';
+  left: 15px;
+  top: 35px;
+  position: absolute;
+}
+
+@keyframes checkmark {
+  0% {
+    height: 0;
+    width: 0;
+    opacity: 1;
+  }
+  20% {
+    height: 0;
+    width: 15.5px;
+    opacity: 1;
+  }
+  40% {
+    height: 31px;
+    width: 15.5px;
+    opacity: 1;
+  }
+  100% {
+    height: 31px;
+    width: 15.5px;
+    opacity: 1;
+  }
+}
+
+/*.Oval-4 {
+  width: 12px;
+  height: 12px;
+  background-color: #47494a;
+  border: solid 1px #cdc7c7;
+  border-radius: 50%;
+  display: inline-block;
+}
+
+.Line {
+  width: 197px;
+  height: 3px;
+  border: solid 1px #bfbbbb;
+  display: inline-block;
+  margin-bottom: auto;
+  margin-top: auto;
+}*/
+
+@media screen and (max-width: 425px)
+{ #main{
+  width:100%;
+  }
+}
