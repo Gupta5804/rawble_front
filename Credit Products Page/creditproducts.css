@@ -1,3 +1,4 @@
+
 .navbarRectangle-8 {
   flex-direction: row;
   display: flex;
@@ -595,11 +596,7 @@
   flex : 0 0 213.1px;
 }
 
-.flex-container2{
-  display:flex;
-  flex-direction: column;
-  text-align: center;
-}
+
 
 .Combined-Shape-Copy {
   background-color: #ffffff;
@@ -807,31 +804,11 @@
     top : 10px;
   }
 
-  @media screen and (max-width: 768px)
-{ 
-  .Rectangle-19-Copy-2 {
-    margin-right: 0%;
-    margin-left: 0%;
-  }
-  .front {
-    width: 100%;
-  }
-  .back {
-    width: 100%;
-  }
-  .arrowimg{
+  .tabcontent {
     display: none;
-  }
-  .Rectangle{
-    margin-bottom: 20px;
-  }
 }
-@media screen and (max-width: 473px)
-{ 
-  .Rectangle-13-Copy-6{
-    flex : 0 0 100%;
-  } 
-}
+
+
 .Image-1 {
   width: 157px;
   height: 44px;
@@ -931,4 +908,33 @@
 #case {
   max-width: 370px;
   margin-top: 20px;
+}
+
+  @media screen and (max-width: 767px)
+{ 
+  .Rectangle-19-Copy-2 {
+    margin-right: 0%;
+    margin-left: 0%;
+  }
+  .front {
+    width: 100%;
+  }
+  .back {
+    width: 100%;
+  }
+  .arrowimg{
+    display: none;
+  }
+  .Rectangle{
+    margin-bottom: 20px;
+  }
+  .flex-item{
+    flex : 0 0 100%;
+  } 
+}
+@media screen and (max-width: 991px)
+{ 
+  .Apply-for-Credit{
+    font-size: 20px;
+  }
 }
