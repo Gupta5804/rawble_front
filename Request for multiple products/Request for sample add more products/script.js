@@ -6,7 +6,7 @@
         // adding new block for serial number
         var addto = "#sno" + next;
         next = next + 1;
-        var newIn = '<input class="inp" id="sno' + next + '" name="sno' + next + '" type="text"> required';
+        var newIn = '<input class="inp snoinp" id="sno' + next + '" name="sno' + next + '" value = "'+ next +'" type="text"> required';
         var newInput = $(newIn);
         $(addto).after(newInput);
 
@@ -35,22 +35,7 @@
         newInput = $(newIn);
         $(addto).after(newInput);
 
-        //adding new block for qty
-        next = next - 1;
-        addto = "#qty" + next;
-        next = next + 1;
-        newIn = '<input class="inp" id="qty' + next + '" name="qty' + next + '" type="text"> required';
-        newInput = $(newIn);
-        $(addto).after(newInput);
-
-        //adding new block for unit
-        next = next - 1;
-        addto = "#unit" + next;
-        next = next + 1;
-        newIn = '<input class="inp" id="unit' + next + '" name="unit' + next + '" type="text"> required';
-        newInput = $(newIn);
-        $(addto).after(newInput);
-
+        
         //adding new block for comment
         next = next - 1;
         addto = "#comment" + next;
@@ -94,19 +79,6 @@
         fieldID = "#vendor" + fieldNum;
         $(fieldID).remove();
 
-        // To remove field of Qty
-        next = next + 1;
-        fieldNum = next;
-        next = next - 1;
-        fieldID = "#qty" + fieldNum;
-        $(fieldID).remove();
-
-        // To remove field of Unit
-        next = next + 1;
-        fieldNum = next;
-        next = next - 1;
-        fieldID = "#unit" + fieldNum;
-        $(fieldID).remove();
 
         // To remove field of Comments
         next = next + 1;
