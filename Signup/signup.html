@@ -6,10 +6,13 @@
 	<link rel="stylesheet" type="text/css" href="signup.css">
 </head>
 <body>
+  <div class = "progress-bar-img-div">
+    <img src = "Images/first-stage.svg">
+  </div>
 
   <div id= "main">
 
-	<h1 class="Provide-your-registr">Provide your registration information</h1>
+	<h1 class="Provide-your-registr heading">Provide your registration information</h1>
 
  <form >
 
@@ -18,23 +21,23 @@
       <div class="row form-row">
         <div class="col-sm-6 ap">
           <label for="firstname" class="labels First-Name">First Name</label>
-          <input type="text" class="tbw" id="firstname" aria-describedby="" placeholder="">
+          <input type="text" class="tbw" id="firstname" name = "first-name" aria-describedby="" placeholder="" required>
         </div>
         <div class="col-sm-6 ap">
             <label for="lastname" class="labels First-Name ">Last Name</label>
-            <input type="text" class="tbw"  id="lastname" aria-describedby="" placeholder="">
+            <input type="text" class="tbw"  id="lastname" name = "last-name" aria-describedby="" placeholder="" required>
         </div>
        </div>
          <div class="row form-row">
              <div class="col-sm-6 ap">
                  <label for="email" class="labels First-Name">E-mail ID</label>
-                 <input type="" id="email" class="tbw" aria-describedby="" placeholder="">
+                 <input type="email" name = "email-id" id="email" class="tbw" aria-describedby="" placeholder="" required>
              </div>
              <div class="col-sm-6 ap">
                  <label for="phone" id="phonelabel" class="labels First-Name">Phone Number</label>
                   <div id= "phonediv">
-                    <input type = "text" id="countrycode"   placeholder="+91">
-                    <input  class = "rw" type = "tel" id="phone">
+                    <input type = "text" id="countrycode" name = "country-code"   placeholder="+91" required>
+                    <input  class = "rw" type = "tel" id="phone" name = "phone-no" required>
                   </div>
              </div>
        </div>

@@ -6,9 +6,12 @@
 	<link rel="stylesheet" type="text/css" href="signup2.css">
 </head>
 <body>
+	<div class = "progress-bar-img-div">
+		<img src = "Images/second-stage.svg">
+	</div>
 	<div id="main">
 
-	<h1 class="Provide-your-bus">Provide your Business information</h1>
+	<h1 class="Provide-your-bus heading">Provide your Business information</h1>
 
 	<div class = "row">
 		
@@ -18,14 +21,14 @@
 					<div class = "row form-row">
 						<div class="col-12 form-group">                      
 							<label for="companyname" id="companynamelabel" class="labels Company-Name">Company Name</label>
-							<input type = "text" id="companyname" class="boxsize Rectangle-13">
+							<input type = "text" id="companyname" name = "company-name" class="boxsize Rectangle-13">
 						</div>
 					</div>
 					<!-- <div class="blank"></div> -->
 					<div class = "row form-row">
 						<div class="col-12 form-group">                      
 							<label for="selectindustry" id="selectindustrylabel" class="labels Company-Name">Select Industry</label>
-							<select name="text" id = "selectindustry" class="Rectangle-13"> 
+							<select name="select-industry" id = "selectindustry" class="Rectangle-13"> 
 								<option value="first">First Value</option> 
 								<option value="second" selected>Second Value</option>
 								<option value="third">Third Value</option>
@@ -36,7 +39,7 @@
 					<div class = "row form-row">
 						<div class="col-12 form-group">                      
 							<label for="pincode" id="pincodelabel" class="labels Company-Name">Pin Code</label>
-							<input type = "text" id="pincode" class="boxsize Rectangle-13">
+							<input type = "text" id="pincode" name = "pincode" class="boxsize Rectangle-13">
 						</div>
 					</div>
 				</div>		

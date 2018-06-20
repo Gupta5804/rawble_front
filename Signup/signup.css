@@ -3,8 +3,14 @@ body{
 }
 
 
-h1{
+.heading{
 	text-align: center;
+}
+
+.progress-bar-img-div{
+  text-align: center;
+  margin-top: 30px;
+  margin-bottom: 10px;
 }
 
 #or {
@@ -23,7 +29,7 @@ h1{
 	margin-left: auto;
 	margin-right: auto;
 	background-color: white;
-	margin-top: 100px;
+	/*margin-top: 100px;*/
 	margin-bottom: 100px;
 	padding-top: 20.7px;
 	padding-bottom: 30px;

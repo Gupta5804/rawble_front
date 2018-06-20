@@ -1,44 +1,317 @@
-.tab {
+.career-explorer-page .tab {
 	display: flex;
 	flex-direction: column;
 }
 
-.tablinks {
-	height: 170px;
+.career-explorer-page .tab button {
+  width: 80%;
+  height: 192px;
+  border-radius: 10px;
+  background-color: #f4f4f4;
+  border: solid 1px #979797;
+  margin-bottom: 47px;
+  border-left: none;
+  margin-left: -15px;
+}
+
+.career-explorer-page .tab2 a {
+  font-family: 'Montserrat', sans-serif;
+  font-size: 18px;
+  font-weight: normal;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: normal;
+  letter-spacing: normal;
+  text-align: center;
+  color: #6b6b6b;
+  transition: all 0.3s;
+  white-space: nowrap;
+  margin-right: 50px;
+}
+
+.career-explorer-page{
+    padding-right: 5%;
 }
 
 /* Style the tab */
-.tab {
+/*.tab {
     overflow: hidden;
     border: 1px solid #ccc;
     background-color: #f1f1f1;
-}
+}*/
 
 /* Style the buttons that are used to open the tab content */
-.tab button {
+/*.tab button {
     background-color: inherit;
     float: left;
     border: none;
     outline: none;
     cursor: pointer;
-    padding: 14px 16px;
+     padding: 14px 16px;
     transition: 0.3s;
 }
-
+*/
 /* Change background color of buttons on hover */
-.tab button:hover {
+/*.tab button:hover {
     background-color: #ddd;
-}
+}*/
 
 /* Create an active/current tablink class */
-.tab button.active {
-    background-color: #ccc;
+.career-explorer-page .tab button.active {
+    background-color: #d9d9d9;
+    box-shadow: 0 1px 2px 0 rgba(0, 0, 0, 0.5);
+    width: 90%;
 }
 
 /* Style the tab content */
-.tabcontent {
+.career-explorer-page .tabcontent {
     display: none;
-    padding: 6px 12px;
-    border: 1px solid #ccc;
-    border-top: none;
+   }
+.career-explorer-page .col-md-9 { 
+  box-shadow: 0 2px 4px 0 rgba(55, 54, 54, 0.5);
+  background-color: #ffffff;
+  background-color: var(--white);
+  margin-top: 20px;
+  margin-bottom: 50px;
+  padding-bottom: 30px;
+  padding-top: 20px;
 }
+
+.career-explorer-page .Line {
+  width: 43px;
+  height: 8px;
+  background-color: #d9d9d9;
+}
+
+.career-explorer-page .col-md-3{
+  padding-top: 20px;
+}
+
+.career-explorer-page .tab2content {
+    display: none;
+}
+
+.career-explorer-page .tab2 {
+    display: flex;
+    flex-direction: row;
+    white-space: nowrap;
+}
+
+.career-explorer-page .tab2 a.active2{
+  font-family: 'Montserrat', sans-serif;
+  font-size: 18px;
+  font-weight: 500;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: normal;
+  letter-spacing: normal;
+  text-align: center;
+  color: #e70c0c;
+  text-decoration: underline;
+}
+
+.career-explorer-page .heading{
+  font-family: 'Montserrat' , sans-serif;
+  font-size: 24px;
+  font-weight: bold;
+  color: #2c2b2b;
+  margin-top: 50px;
+  margin-bottom: 0px;
+}
+
+.career-explorer-page .location{
+  font-family: 'Montserrat' , sans-serif;
+  font-size: 14px;
+  font-weight: 300;
+  color: #747474;
+  margin-bottom: 0;
+}
+
+.career-explorer-page .sub-heading{
+  font-family: 'Montserrat' , sans-serif;
+  font-size: 18px;
+  font-weight: 1000;
+  font-style: normal;
+  color: #2c2b2b;
+  margin-top: 50px;
+}
+
+.career-explorer-page .description{
+  font-family: Helvetica;
+  font-size: 14px;
+  font-weight: 300;
+  color: #535353;
+}
+
+.career-explorer-page .Apply-by-date{
+  position: absolute;
+  right: 30px;
+  width: 180px;
+  height: 76px;
+  border: dotted 1px #979797;
+  text-align: center;
+  color: #383838;
+  font-weight: 500;
+}
+
+.career-explorer-page .apply-btn-div{
+  text-align: center;
+  margin-top: 50px;
+}
+
+.career-explorer-page .apply-btn{
+  width: 200px;
+}
+
+.career-explorer-page .Apply-by-date .row-container{
+  height : 100%;
+  width : 100%;
+}
+
+.career-explorer-page .Apply-by-date .row-container span{
+  position : absolute;
+}
+
+.career-explorer-page .date{
+  font-size: 30px;
+  left : 50px;
+  color: #383838;
+  font-weight: normal;
+
+}
+
+.career-explorer-page .month{
+  right: 50px;
+  top: 25px;
+  color: #383838;
+  font-weight: 500;
+}
+
+.career-explorer-page .year{
+  right : 50px;
+  top: 45px;
+  color: #383838;
+  font-weight: 500;
+}
+
+
+
+
+/*.career-explorer-page .Apply-by-date .row-container .column-container span{
+  margin-bottom: 0;
+}*/
+
+.pn-ProductNav_Wrapper {
+  position: relative;
+  padding: 0 11px;
+  box-sizing: border-box;
+}
+
+.pn-ProductNav {
+  /* Make this scrollable when needed */
+  overflow-x: auto;
+  /* We don't want vertical scrolling */
+  overflow-y: hidden;
+  /* For WebKit implementations, provide inertia scrolling */
+  -webkit-overflow-scrolling: touch;
+  /* We don't want internal inline elements to wrap */
+  white-space: nowrap;
+  /* If JS present, let's hide the default scrollbar */
+  /* positioning context for advancers */
+  position: relative;
+}
+.js .pn-ProductNav {
+  /* Make an auto-hiding scroller for the 3 people using a IE */
+  -ms-overflow-style: -ms-autohiding-scrollbar;
+  /* Remove the default scrollbar for WebKit implementations */
+}
+.js .pn-ProductNav::-webkit-scrollbar {
+  display: none;
+}
+
+.pn-ProductNav_Contents {
+  float: left;
+  transition: -webkit-transform .2s ease-in-out;
+  transition: transform .2s ease-in-out;
+  transition: transform .2s ease-in-out, -webkit-transform .2s ease-in-out;
+}
+
+.pn-ProductNav_Contents-no-transition {
+  transition: none;
+}
+
+.pn-ProductNav_Link {
+  text-decoration: none;
+  color: #888;
+  font-size: 1.2em;
+  font-family: -apple-system, sans-serif;
+  display: inline-flex;
+  align-items: center;
+  min-height: 44px;
+  border: 1px solid transparent;
+}
+.pn-ProductNav_Link + .pn-ProductNav_Link {
+  padding: 0 11px;
+  box-shadow: 1px 0 0 #eee;
+}
+.pn-ProductNav_Link[aria-selected="true"] {
+  color: #111;
+}
+
+.pn-Advancer {
+  /* Reset the button */
+  -webkit-appearance: none;
+     -moz-appearance: none;
+          appearance: none;
+  background: transparent;
+  padding: 0;
+  border: 0;
+  /* Now style it as needed */
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  /* Set the buttons invisible by default */
+  opacity: 0;
+  transition: opacity .3s;
+}
+.pn-Advancer:focus {
+  outline: 0;
+}
+.pn-Advancer:hover {
+  cursor: pointer;
+}
+
+.pn-Advancer_Left {
+  left: 0;
+}
+[data-overflowing="both"] ~ .pn-Advancer_Left, [data-overflowing="left"] ~ .pn-Advancer_Left {
+  opacity: 1;
+}
+
+.pn-Advancer_Right {
+  right: 0;
+}
+[data-overflowing="both"] ~ .pn-Advancer_Right, [data-overflowing="right"] ~ .pn-Advancer_Right {
+  opacity: 1;
+}
+
+.pn-Advancer_Icon {
+  width: 20px;
+  height: 44px;
+  fill: #bbb;
+}
+
+.pn-ProductNav_Indicator {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  height: 4px;
+  width: 100px;
+  background-color: #f90;
+  -webkit-transform-origin: 0 0;
+          transform-origin: 0 0;
+  transition: -webkit-transform .2s ease-in-out;
+  transition: transform .2s ease-in-out;
+  transition: transform .2s ease-in-out, -webkit-transform .2s ease-in-out;
+}
+

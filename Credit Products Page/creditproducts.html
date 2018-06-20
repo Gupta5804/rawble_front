@@ -13,7 +13,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1">
 
 </head>
-<body>
+<body><!-- 
 <nav class="navbar navbar-light bg-light d-none d-md-block pad navbarnav">
   <div class = "navbarflex-container">
     <div class = "navbarRectangle-8">
@@ -59,8 +59,8 @@
                 <div class="dropdown-divider"></div>
                 <a class="dropdown-item" href="#">Something else here</a>
               </div>
-              <form class="form-inline my-2 my-lg-0" style = "width: 100%">
-                <input class=" mr-sm-2 navbarsearch navbarpad" type="search" placeholder="Search for products, categories or brands" onfocus="this.placeholder = ''" aria-label="Search">
+              <form class="form-inline my-2 my-lg-0" action="" style = "width: 100%">
+                <input class=" mr-sm-2 navbarsearch navbarpad" type="search" placeholder="Search for products, categories or brands" name = "search" onfocus="this.placeholder = ''" aria-label="Search">
               </form>
               <img src = "Images/mg.svg" id = "navbarmg">
           </li>
@@ -87,7 +87,7 @@
     </div>
   </div>
 </nav>
-
+ -->
 	<div id="main">
 		<p class="We-know-managing-wor">We know managing working capital is one of the toughest jobs for SMEs !</p>
 		<p class="We-have-come-up-with">We have come up with the solutions to solve just that</p>
@@ -113,24 +113,24 @@
 						<div class="Rectangle-19-Copy-2 front" id = "personaldetails">
 							<p class="REGISTER-TO-GET-MATE">REGISTER TO GET MATERIAL ON CREDIT</p>
 							<p class="PERSONAL-DETAILS">PERSONAL DETAILS</p>
-							<form>
+							<form action="">
 								<div class="container-fluid">
 									<div class="row form-row">
 										<div class="col-12 form-group">             
 											<label for="firstname" id="firstnamelabel" class="labels First-Name">First Name</label>
-											<input type = "text" id="firstname" class="Rectangle-13 box-size">
+											<input type = "text" id="firstname" name="firstname" class="Rectangle-13 box-size">
 										</div>
 									</div>
 									<div class="row form-row">
 										<div class="col-12 form-group">             
 											<label for="lastname" id="lastnamelabel" class="labels First-Name">Last Name</label>
-											<input type = "text" id="lastname" class="Rectangle-13 box-size">
+											<input type = "text" id="lastname" name = "lastname" class="Rectangle-13 box-size">
 										</div>
 									</div>
 									<div class="row form-row">
 										<div class="col-12 form-group">             
 											<label for="email" id="emaillabel" class="labels First-Name">E-mail ID</label>
-											<input type = "email" id="lastname" class="Rectangle-13 box-size">
+											<input type = "email" id="lastname" name = "email" class="Rectangle-13 box-size">
 										</div>
 									</div>
 									<div class="row form-row">
@@ -138,7 +138,7 @@
 											<label for="phone" id="phonelabel" class="labels First-Name">Phone Number</label>
 											<div id = "phone">
 												<input type = "text" id = "countrycode" placeholder="+91" class="Rectangle-13">
-												<input type = "text" id="phonenum" class="Rectangle-13 ">
+												<input type = "text" id="phonenum" name = "phoneno"class="Rectangle-13 ">
 											</div>	
 										</div>
 									</div>
@@ -146,43 +146,43 @@
 										<button class="btn btn-danger Rectangle-2" type = "button" id = "nextbutton">NEXT</button>
 									</div>
 								</div>
-							</form>
+							
 							<img src = "Images/group-22.svg" class="arrowimg">
 							<p class="half">1/2</p>
 						</div>
 						<div class="Rectangle-19-Copy-2 back displayform rotate" id="companydetails">
 							<p class="REGISTER-TO-GET-MATE">REGISTER TO GET MATERIAL ON CREDIT</p>
 							<p class="PERSONAL-DETAILS">COMPANY DETAILS</p>
-							<form>
+							
 								<div class="container-fluid">
 									<div class="row form-row">
 										<div class="col-12 form-group">             
 											<label for="firstname" id="firstnamelabel" class="labels First-Name">Company Name</label>
-											<input type = "text" id="firstname" class="Rectangle-13 box-size">
+											<input type = "text" id="firstname" name = "companyname" class="Rectangle-13 box-size" required>
 										</div>
 									</div>
 									<div class="row form-row">
 										<div class="col-12 form-group">             
 											<label for="lastname" id="lastnamelabel" class="labels First-Name">PAN No.</label>
-											<input type = "text" id="lastname" class="Rectangle-13 box-size">
+											<input type = "text" id="lastname" name="pan-no" class="Rectangle-13 box-size" required >
 										</div>
 									</div>
 									<div class="row form-row">
 										<div class="col-12 form-group">             
 											<label for="email" id="emaillabel" class="labels First-Name">GSTIN</label>
-											<input type = "email" id="lastname" class="Rectangle-13 box-size">
+											<input type = "text" id="lastname" name = "gstin" class="Rectangle-13 box-size" required>
 										</div>
 									</div>
 									<div class="row form-row">
 										<div class="col-12 form-group">             
 											<label for="email" id="emaillabel" class="labels First-Name">PIN Code</label>
-											<input type = "text" id="lastname" class="Rectangle-13 box-size">
+											<input type = "text" id="lastname" name = "pin-code" class="Rectangle-13 box-size" required>
 										</div>
 									</div>
 									<div class="row form-row">
 										<div class="col-12 form-group">             
 											<label for="website" id="websitelabel" class="labels First-Name">Website (Optional)</label>
-											<input type = "text" id="website" class="Rectangle-13 box-size">
+											<input type = "text" id="website" name = "website" class="Rectangle-13 box-size">
 										</div>
 									</div>
 									<div id="button">

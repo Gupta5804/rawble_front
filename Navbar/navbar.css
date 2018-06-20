@@ -1,31 +1,43 @@
-.navbarRectangle-8 {
-  flex-direction: row;
-  display: flex;
+.navigation .navbarRectangle-8 {
   background-color: #393737;
-  height: 31px;
+  height: 30px;
   color: white;
-  padding-bottom: 0px;
-  padding-top: 15px;
+  padding-bottom: 7px;
+  padding-top: 7px;
 }
 
-.navbarflex-container{
+.navigation .linkscontainer{
+  position: absolute;
+  right: 0px;
+  top: 0px;
+  padding-right: 20px;
+}
+
+.navigation .navbarflex-container{
   flex-direction: column;
   display: flex;
 }
 
-.navbarpad {
-  padding: 0;
+.bluecolr{
+  color: #4990e2;
 }
 
-.navbarRectangle-3 {
-  width: 25%;
+.navbarnav {
+  padding: 0;
+  width: 100%;
+}
+
+.navigation .navbarRectangle-3 {
+  width: 50%;
   height: 35px;
   background-color: #fefefe;
   border: solid 1px #979797;
   margin-top: 9px;
+  margin-left: auto;
+  margin-right: auto;
 }
 
-.navbarsearch{
+.navigation .navbarsearch{
   height : 100%;
   width: 100%;
   box-shadow: none;
@@ -34,7 +46,7 @@
   padding: 0;
   margin: 0;
   font-family: Helvetica;
-    font-size: 12px;
+    font-size: 16px;
     font-weight: 300;
     font-style: normal;
     font-stretch: normal;
@@ -45,74 +57,103 @@
     color: #a7a7a7;
 }
 
-.navbarRectangle-4 {
-  min-width: 75.6px;
+.navigation .navbarRectangle-4 {
+  min-width: 50px;
   height: 34px;
   border-right: solid 1px #979797;
 }
 
-.navbarRectangle-9-Copy {
+.navigation .navbar-toggler {
+  padding: 0;
+}
+
+/*#hamburgerbtn{
+  width:30px;
+  height: 30px;
+}
+*/
+.navigation .searchbox{
+  display: flex;
+  flex-direction: row;
+}
+
+.navigation .navbarRectangle-9-Copy {
   height: 55px;
   /*padding-top: 21px;*/
   background-color: #ffffff;
   background-color: var(--white);
   box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.5);
-  padding-left: 98px;
+  padding-left: 110px;
+  flex-direction: row; 
+  display : flex;
 }
 
-#navbarhome {
+.navigation #navbarhome {
   margin-top: 13px;
-  width: 8%;
+  width: 50px;
 }
 
-#navbaraboutus {
+.navigation #navbaraboutus {
   margin-top: 13px;
-  width: 8%;
-  margin-left: 2%;
-  min-width: 55.25px;
+  margin-left: 5px;
+  min-width: 60px;
 }
 
-#navbarpdts {
-  margin-right: 5%;
+.navigation #navbarpdts {
+  margin-right: 20px;
   margin-top: 13px;
-  width: 12%;
-  margin-left: 2%;
+  min-width: 75px;
+  margin-left: 10px;
 }
 
-.navbarnav-link{
+.navigation .navbarnav-link{
   padding-left: 0px;
   padding-right: 0px;
 }
 
-#navbarlogin {
-  /*border-right : solid 1px #444343;*/
-  margin-top: 19px;
-  width: 8%;
+.navigation #navbarlogin {
+  margin-top: 13px;
+  /*width: 8%;*/
   min-width: 60px;
 }
 
-#navbarsignup{
+.navigation #navbarsignup{
   margin-top: 13px;
-  width: 8%;
-  margin-right: 2%;
+  /*width: 8%;*/
+  margin-right: 10px;
 }
 
-.navbarul{
+.navigation .aright{
+  flex-direction: row;
+  display: flex;
+  text-align: right;
+  margin-right: 0;
+  margin-left: auto;
+  padding-right: 20px;
+}
+.navigation .dropdown-menu-right {
+right: 0;
+left: auto;
+}
+
+.navigation .navbarul{
   width: 100%;
   height: 100%;
 }
 
-#navbarindia {
+.navigation #navbarindia {
   margin-left: 80px;
+  margin-bottom: 20px;
 }
 
-#navbarlogo {
+.navigation #navbarlogo {
   position: absolute;
   left: 10px;
+  top: 10px;
   width : 88px;
 }
 
-.navbarHome {
+.navigation .navbarHome {
   font-family: Helvetica;
   font-size: 14px;
   font-weight: normal;
@@ -124,7 +165,7 @@
   color: #444141;
 }
 
-.navbarAbout-us {
+.navigation .navbarAbout-us {
   font-family: Helvetica;
   font-size: 14px;
   font-weight: normal;
@@ -136,7 +177,7 @@
   color: #444141;
 }
 
-.navbarProducts {
+.navigation .navbarProducts {
   font-family: Helvetica;
   font-size: 14px;
   font-weight: normal;
@@ -148,7 +189,7 @@
   color: #444141;
 }
 
-.navbarLogin {
+.navigation .navbarLogin {
   font-family: Helvetica;
   font-size: 14px;
   font-weight: normal;
@@ -158,15 +199,85 @@
   letter-spacing: normal;
   text-align: center;
   color: #5b5b5b;
-  border-right : solid 1px #444343;
-  padding: 2px;
+  padding-right: 15px;
+  margin-left: 5px;
 }
 
 /*.Signup{
   padding: 2px;
 }*/
 
-.navbarSignup {
+.navigation .form-control{
+  width: 200px;
+}
+
+.navigation .ntreg{
+    font-size:12px;
+    float: left;
+    padding-left: 10px;
+}
+
+.navigation .searchbtn{
+  border: none;
+  background-color: white;
+}
+
+.navigation .createacc{
+  font-size: 12px;
+  float : right;
+  display: inline-block;
+  width: 100px;
+  text-align: right;
+  padding-right: 10px;
+}
+
+.navigation .rememberlabel{
+    font-family: Helvetica;
+    font-size: 9px;
+    font-weight: 300;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: normal;
+    letter-spacing: normal;
+    text-align: center;
+    color: #5f5d5d;
+    padding: 0;
+}
+
+.navigation .frgtpass{
+  margin-right: 0;
+  margin-left: auto;
+  color: #4990e2;
+  font-style: helvetica;
+  font-size: 9px;
+}
+
+.navigation .topheaderlinks{
+  font-size: 0.7em; 
+  color: white ;
+}
+
+
+.navigation .remember-div{
+  display: flex;
+  flex-direction: row;
+}
+
+.navigation .orpara{
+  margin-top: 10px;
+  margin-bottom: 10px;
+  text-align: center;
+}
+
+.navigation .loginbtn{
+  width:100%;
+  margin-top: 30px;
+}
+
+.navigation .loginwithgmailbtn{
+  width: 100%;
+}
+.navigation .navbarSignup {
   font-family: Helvetica;
   font-size: 14px;
   font-weight: normal;
@@ -176,11 +287,17 @@
   letter-spacing: normal;
   text-align: center;
   color: #5b5b5b;
+  border-left:  solid 1px #444343;
+  padding-left: 15px;
+  padding-bottom: 2px;
+  padding-top: 2px;
+  margin-top: 6px;
+
 }
 
- .navbarAll {
+ .navigation .navbarAll {
   font-family: Helvetica;
-  font-size: 12px;
+  font-size: 16px;
   font-weight: normal;
   font-style: normal;
   font-stretch: normal;
@@ -190,37 +307,39 @@
   color: #6a6767;
 }
 
-.navbarinline{
+.navigation .navbarinline{
   display: inline-block;
 }
 
-#navbartruck{
+.navigation #navbartruck{
   margin-top: 22px;
   margin-left: 10px;
 }
 
-.navbarlayer {
+.navigation .navbarlayer {
   /*width: 22px;
   height: 15.6px;*/
   object-fit: contain;
 }
 
-#navbarprofile {
-  margin-left: 5%;
-  width: 5%;
+.navigation #navbarprofile {
+/*  //margin-left: 5%;
+  //width: 5%;*/
   text-align: right;
+  padding-left: 10px;
 }
 
-.navbarhap{
-  margin-top: 22px;
+.navigation .navbarhap{
+  margin-top: 20px;
 
 }
 
-#navbarmg {
-  margin-right:  10px;
+.navigation .navbar-toggler-icon{
+  height: 25px;
+  width: 25px;
 }
 
-.navbarcounter{
+.navigation .navbarcounter{
   position: absolute;
   width: 22px;
   height: 22px;
@@ -231,7 +350,7 @@
   padding-top: 0.5px;
 }
 
-.navbarlayer2 {
+.navigation .navbarlayer2 {
  /* width: 6px;
   height: 11px;*/
   font-family: Helvetica;
@@ -245,45 +364,33 @@
   color: #424242;
 }
 
-.navbarfs{
+.navigation .navbarfs{
   font-size: 7px;
 }
 
-.navbarpos{
+.navigation .navbarpos{
   position: relative;
   width: 8%;
   margin-right: 2%;
   text-align: left;
 }
 
-.navbarul {
+.navigation .navbarul {
   list-style-type: none;
   padding: 0;
   margin : 0;
 }
 
-.navbarnav{
-  width: 100%;
-  padding: 0;
-}
 
 
 
-.navbarfullwidth{
+.navigation .navbarfullwidth{
   width: 100%;
 }
 
-@media screen and (max-width: 992px)
-{ 
-    .navbarRectangle-4{
-      display: none;
-    }
-    #navbarindia{
-      display: none;
-    }
-}
 
-.navbarsearchbar{
+
+.navigation .navbarsearchbar{
   width: 100%;
   border : none;
   /*border-bottom: solid 1px #979797;*/
@@ -302,7 +409,7 @@
   color: #c4c4c7;
 }
 
-.navbarform{
+.navigation .navbarform{
   width : 100%;
   display: flex;
   flex-direction: row;
@@ -311,10 +418,49 @@
 
 }
 
-.navbarimgwidth{
+.navigation .navbarimgwidth{
   width: 23px;
   height: 19px;
   margin-bottom: 5px;
   margin-left: 5px;
 
 }
+
+@media screen and (max-width: 1023px)
+{ 
+    .navbarRectangle-4{
+      display: none;
+    }
+    #navbarindia{
+      display: none;
+    }
+}
+
+@media screen and (min-width: 1024px)
+{ 
+    #navbarhome{
+      margin-right: 10px;
+    }
+
+    #navbaraboutus{
+      margin-right: 10px;
+    }
+    .navbarRectangle-3{
+      width: 40%;
+    }
+    .navbarHome{
+      font-size: 16px;
+    }
+    .navbarAbout-us{
+      font-size: 16px;
+    }
+    .navbarProducts{
+      font-size: 16px;
+    }
+    .navbarLogin{
+      font-size: 16px;
+    }
+    .navbarSignup{
+      font-size: 16px;
+    }
+}  
