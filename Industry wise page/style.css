@@ -25,8 +25,8 @@
   border-radius: 34px;
   border: solid 1px #403f3f;background: none;font-family: Helvetica;
   font-size: 12px;position: relative;float:right;margin-right: 10px;margin-top: 40px;}
-.listprod{width:100%;}
-.prod-box{width: 247px;display:inline-block;margin-left:20px;margin-right:20px;}
+.listprod{width:100%;margin-top:20px}
+.prod-box{width: 215px;display:inline-block;margin:4.409516096115%}
 .prod-box img{box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.29);width: 215px;
   height: 215px;}
 .middle{opacity:0;}
@@ -46,6 +46,7 @@
 
 @media screen and (max-width:1024px){
     .row2 img{height:170px;max-width:280px;}
+    .prod-box{margin:18px}
 }
 @media screen and (max-width:768px){
     .titlecard{font-size:26px;padding-top:20px;padding-left: 0px;padding-right: 0px;padding-bottom: 0px;height:120px;}
@@ -60,6 +61,8 @@
     .row2 img{height:80px;}
     .row-3{}
     .category-wise{margin-top: 30px;margin-bottom: 30px;width:80%}
+    .prod-box{width:80%;display:block;margin-left: auto;margin-right: auto;text-align: center}
+    .prod-box img{}
 }
 @media screen and (max-width:375px){
     .row2 img{height:50px;}
