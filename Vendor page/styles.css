@@ -1,0 +1,162 @@
+.yellow-bar{
+	height: 89px;
+	background-color: #e0c14d;
+	margin-left: -15px;
+	margin-right: -15px;
+	margin-bottom: 30px;
+}
+
+.main-content{
+	width: 90%;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+.product-name{
+  font-family: Helvetica;
+  font-size: 30px;
+  font-weight: bold;
+  color: #494848;
+}
+
+.topimage{
+	position:absolute;
+	left: 5%;
+	top: 70px;
+}
+
+.main{
+	 box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.5);
+	 border-radius: 4px;
+  	 background-color: #ffffff;
+  	 margin-bottom: 30px;
+  	 margin-top: 30px;
+  	 padding-top: 100px;
+  	 padding-bottom: 50px;
+}
+
+.product-info{
+	font-family: Helvetica;
+  	font-size: 18px;
+  	color: #717171;
+}
+
+.toplinks{
+	position: absolute;
+	top: 30px;
+	left:5%;
+}
+
+.product-list{
+	border: dashed 1px black;
+	padding: 10px;
+	padding-right: 50px;
+	margin-top: 40px;
+}
+
+p.toplinks a.selected{
+	color: #4990e2
+}
+
+p.toplinks a{
+	font-family: Helvetica;
+  font-size: 10px;
+  font-weight: 300;
+  color : #5f5d5d;
+}
+
+.field-name{
+	font-family: Helvetica;
+	font-size: 18px;
+  	font-weight: bold;
+  	color: #575656;
+}
+
+.field-value{
+	font-family: Helvetica;
+  	font-size: 18px;
+  	font-weight: normal;
+  	color: #717171;
+}
+
+.website{
+	font-family: Helvetica;
+  	font-size: 18px;
+  	font-weight: normal;
+  	color: #4990e2;
+}
+
+.rowbar{
+	display: flex;
+	flex-direction: row;
+	background-color: #d8d8d8;
+	align-items: center;
+	padding: 10px;
+}
+
+.right-align-rowbar{
+	display: flex;
+	flex-direction: row;
+	margin-right: 0;
+	margin-left: auto;
+	align-items: center;
+}
+
+.pdtlist{
+	font-family: Helvetica;
+  	font-size: 18px;
+  	font-weight: bold;
+  	color: #494848;
+}
+
+.sortby{
+	font-size: 12px;
+	font-family: Helvetica;
+	color: #585757;
+	margin: 0;
+	padding: 0;
+	height: 14px;
+	margin-right: 10px;
+}
+
+.show{
+	font-size: 12px;
+	font-family: Helvetica;
+	color: #585757;
+	height: 14px;
+	margin: 0;
+	margin-right: 10px;
+}
+
+.perpage{
+	font-size: 12px;
+	font-family: Helvetica;
+	color: #585757;
+	height: 14px;
+	margin: 0;
+	margin-left: 10px;
+}
+
+.selectbox{
+	height: 24px;
+	padding: 0;
+}
+
+.col-md-3{
+	padding: 20px;
+}
+
+.caphead{
+	font-size: 20px;
+	font-weight: 600;
+	text-align: center;
+}
+
+.capmanufacturer{
+	text-align: center;
+	font-size: 14px;
+}
+
+.pdtimage{
+	width:100%;
+}

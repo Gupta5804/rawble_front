@@ -1,0 +1,220 @@
+.testimonialpage .headercontainer{
+	background-color: #efefef;
+	padding-bottom: 100px;
+}
+
+.buttonscontainer{
+	display: flex;
+	flex-direction: row;
+	align-items: stretch;
+	justify-content: center;
+	margin-bottom: 50px;
+	margin-top: 50px;
+}
+
+
+.testimonialpage .tab2links{
+	height: 327px;
+	border-radius: 5px;
+	background-color: #fbfbfb;
+	box-shadow: 0 0 8px 0 #927f86;
+	margin-right: 12.5%;
+}
+
+
+.testimonialpage .cardcontent{
+	white-space: normal;
+	width: 80%;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+.row{
+	padding-top: 100px;
+}
+
+.wrapper{
+  align-items: stretch;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  overflow-x: auto;
+  overflow-y: hidden;
+}
+
+.seller-heading{
+	text-align: center;
+	font-family: 'Montserrat',sans-serif;
+  	font-size: 30px;
+  	font-weight: normal;
+  	color: #464646;
+  	margin-bottom: 50px;
+}
+
+.Line{
+	width: 50%;
+	border-top: dotted 5px #dfdfdf;
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: 20px;
+	margin-bottom: 50px;
+}
+.card {
+  max-width: 33.333%;
+  padding: .75rem;
+  margin-bottom: 2rem;
+  border: 0;
+  margin-right: 20%;
+  flex-basis: 33.333%;
+  flex-grow: 0;
+  flex-shrink: 0;
+}
+
+
+.card-text {
+  font-size: 85%;
+  width: 60%;
+  margin-left: auto;
+  margin-right: auto;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 14px;
+  font-weight: 200;
+  font-style: normal;
+  color : #000000;
+  text-align: center;
+}
+
+.contentdiv{
+  border-radius: 5px;
+  background-color: #fbfbfb;
+  box-shadow: 0 0 8px 0 #927f86;
+  padding-top: 30px;
+  padding-bottom: 30px;
+	}
+
+.imgdiv{
+	text-align: center;
+	padding-top: 30px;
+}
+
+.quotes{
+	text-align: center;
+	width: 60%;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+.writer{
+	text-align: center;
+	font-family: Helvetica;
+  	font-size: 12px;
+  	color : #737373;
+  	width: 60%;
+  	margin-left: auto;
+	margin-right: auto;
+	margin-top: 50px;
+}
+
+.buyer-testimonials{
+	position: relative;
+}
+
+.seller-testimonials{
+	position: relative;
+}
+
+.right-button {
+	position: absolute;
+	right: 0px;
+	bottom: 400px ;
+	z-index: 1;
+	border: none;
+}
+
+.left-button {
+	position: absolute;
+	left:  0px;
+	bottom: 400px ;
+	z-index: 1;
+	border: none;
+
+}
+
+.intro-quote-left{
+	position: relative;
+	bottom: 10px;
+	right: 10px;
+	color: #777777;
+	font-size: 40px;
+}
+
+.intro-quote-right{
+	position: relative;
+	top: 30px;
+	left: 10px;
+	color: #777777;
+	font-size: 40px;
+}
+
+.intro{
+  font-size: 24px;
+  font-weight: 200;
+  font-style: normal;
+  text-align: center;
+  font-family: 'Montserrat', sans-serif;
+}
+
+
+.fa-angle-right{
+	font-size: 80px;
+	opacity: 0.5;
+}
+
+.fa-angle-left{
+	font-size: 80px;
+	opacity: 0.5;
+}
+
+.col-md-5{
+	margin-bottom: -100px;
+	margin-top: auto;
+	padding-left: 10%;
+	padding-right: 5%;
+}
+
+
+
+
+#content::-webkit-scrollbar{
+	display: none;
+} 
+
+#content2::-webkit-scrollbar{
+	display: none;
+} 
+
+.buyer-btn{
+  height: 128px;
+  width:25%;
+  background-color: #2a2b2a;
+  box-shadow: 0 0 4px 0 rgba(0, 0, 0, 0.5);
+  margin-right: 5%;
+}
+
+.seller-btn{
+  height: 128px;
+  width:25%;
+  background-color: #d44646;
+  box-shadow: 0 0 4px 0 rgba(0, 0, 0, 0.5);
+}
+/*.buyer-testimonials{
+	padding-left: 10px;
+	padding-right: 10px;
+}*/
+
+@media screen and (max-width: 767px)
+{ 
+    .col-md-5{
+      margin-bottom: 50px;
+    }
+}

@@ -1,0 +1,58 @@
+.container-fluid{
+	padding-top: 20px;
+}
+.ht{
+	height:400px;
+}
+.wd{
+	width: 60%;
+}
+.subtext{
+	color: red;
+	font-size: 20px;
+}
+.side-icon{
+	width: 30%;
+}
+.side-box-part{
+	display: flex;
+	flex-direction: row;
+}
+.side-box{
+	border: solid 1px black;
+	padding: 10px;
+	position: sticky;
+	top:20px;
+}
+.side-box h3{
+	text-align: center;
+}
+
+.side-box h5{
+	margin-top: 50px;
+	padding-left: 50px;
+}
+
+.form-control{
+	width:80%;
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: 10px;
+}
+
+.form-group{
+	text-align: center;
+}
+
+.submitbtn{
+	margin-top: 30px;
+}
+
+.title{
+	text-decoration: underline;
+	font-size: 20px;
+}
+
+.author{
+	font-size: 14px;
+}
